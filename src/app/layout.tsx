@@ -4,8 +4,8 @@ import { type Metadata } from "next";
 import { Geist } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "Evo2 Variant Analysis",
-  description: "Evo2 Variant Analysis",
+  title: "GeneSight v2.0",
+  description: "Evo2 Variant Analysis and Sequence Generation",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
