@@ -6,7 +6,7 @@ import { Geist } from "next/font/google";
 export const metadata: Metadata = {
   title: "GeneSight v2.0",
   description: "Evo2 Variant Analysis and Sequence Generation",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  icons: [{ rel: "icon", url: "/Screenshot 2026-02-28 134749.png" }],
 };
 
 const geist = Geist({
