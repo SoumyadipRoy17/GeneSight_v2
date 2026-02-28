@@ -132,10 +132,7 @@ export default function SequenceGeneration() {
                 }
               />
 
-              <MetricCard
-                label="Gaps"
-                value={result.gaps !== undefined ? result.gaps : "N/A"}
-              />
+              <MetricCard label="Gaps" value={result.gaps ?? "N/A"} />
             </div>
           </div>
         )}
@@ -144,7 +141,13 @@ export default function SequenceGeneration() {
   );
 }
 
-function MetricCard({ label, value }: { label: string; value: any }) {
+function MetricCard({
+  label,
+  value,
+}: {
+  label: string;
+  value: string | number;
+}) {
   return (
     <div className="rounded-xl border border-green-100 bg-[#f8fdfb] p-4 text-center shadow-sm transition hover:shadow-md">
       <p className="text-xs font-medium text-[#3c4f3d]/70">{label}</p>
