@@ -61,7 +61,7 @@ export default function SequenceGeneration() {
 
             <div className="space-y-2">
               <label className="text-xs font-medium text-[#3c4f3d]">
-                Target Sequence (Optional)
+                Target Sequence (for Alignment)
               </label>
               <textarea
                 value={targetSequence}
