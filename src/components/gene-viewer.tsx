@@ -271,7 +271,7 @@ export default function GeneViewer({
         onSequenceClick={handleSequenceClick}
         maxViewRange={10000}
       />
-      <SequenceGeneration />
+      {/* <SequenceGeneration /> */}
 
       <GeneInformation
         gene={gene}
